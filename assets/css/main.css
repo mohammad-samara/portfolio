@@ -328,7 +328,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.3333333333%;
+			width: 49%;
 		}
 
 		.row > .off-4 {
@@ -571,7 +571,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-wide {
-					width: 33.3333333333%;
+					width: 49%;
 				}
 
 				.row > .off-4-wide {
@@ -816,7 +816,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-normal {
-					width: 33.3333333333%;
+					width: 49%;
 				}
 
 				.row > .off-4-normal {
@@ -1061,7 +1061,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-narrow {
-					width: 33.3333333333%;
+					width: 49%;
 				}
 
 				.row > .off-4-narrow {
@@ -1306,7 +1306,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-narrower {
-					width: 33.3333333333%;
+					width: 49%;
 				}
 
 				.row > .off-4-narrower {
@@ -1551,7 +1551,7 @@ input, select, textarea {
 				}
 
 				.row > .col-4-mobile {
-					width: 33.3333333333%;
+					width: 49%;
 				}
 
 				.row > .off-4-mobile {
@@ -1761,8 +1761,9 @@ input, select, textarea {
 		}
 
 			.image.avatar48 img {
+				border-radius: 30%;
 				width: 48px;
-				height: 48px;
+				height: 50px;
 			}
 
 		.image.fit {
@@ -2609,3 +2610,12 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* modified by samara */
+#top header h2{
+	color: rgb(235, 221, 96) !important;
+}
+#top header p{
+	color: rgb(119, 148, 82);
+}
